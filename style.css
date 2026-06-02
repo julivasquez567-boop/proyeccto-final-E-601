@@ -194,3 +194,7 @@ footer{
         transform:translateY(0);
     }
 }
+nav a.active {
+    color: #ec4899;
+    border-bottom: 2px solid #ec4899;
+}
