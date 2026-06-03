@@ -429,3 +429,34 @@ body.dark .oferta li{
     background:#334155;
     color:white;
 }
+
+.header-principal{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+    background:linear-gradient(90deg,#ec4899,#8b5cf6);
+    color:white;
+    text-align:center;
+    flex-wrap:wrap;
+}
+
+.header-principal img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.header-principal h1{
+    background:none;
+    box-shadow:none;
+    padding:0;
+    margin:0;
+    font-size:2.5rem;
+}
+
+.header-principal p{
+    margin-top:5px;
+    font-size:1rem;
+}
