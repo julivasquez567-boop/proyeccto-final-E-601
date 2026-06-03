@@ -295,3 +295,50 @@ body.dark textarea{
     color:white;
     border:2px solid #64748b;
 }
+
+.redes{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.redes a{
+    text-decoration:none;
+    background:#1877F2;
+    color:white;
+    padding:15px 25px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.redes a:hover{
+    transform:scale(1.05);
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.redes{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.redes a{
+    text-decoration:none;
+    color:white;
+    padding:12px 25px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.redes a:first-child{
+    background:#1877F2;
+}
+
+.redes a:hover{
+    transform:scale(1.05);
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
