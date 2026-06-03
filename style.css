@@ -342,3 +342,36 @@ body.dark textarea{
     transform:scale(1.05);
     box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
+
+/* ESTADÍSTICAS */
+.estadisticas{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    width:220px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#8b5cf6;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+body.dark .card{
+    background:#1e293b;
+    color:white;
+}
