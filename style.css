@@ -460,3 +460,26 @@ body.dark .oferta li{
     margin-top:5px;
     font-size:1rem;
 }
+
+/* FOOTER PROFESIONAL */
+
+footer{
+    text-align:center;
+    padding:30px 20px;
+    background:#7c3aed;
+    color:white;
+    margin-top:50px;
+}
+
+footer h3{
+    margin-bottom:10px;
+    font-size:1.5rem;
+}
+
+footer p{
+    margin:8px 0;
+}
+
+body.dark footer{
+    background:#0f172a;
+}
