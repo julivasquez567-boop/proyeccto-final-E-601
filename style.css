@@ -214,23 +214,42 @@ nav a.active {
     z-index:1000;
 }
 
-/* MODO OSCURO */
+/* 🌙 MODO OSCURO COMPLETO */
 body.dark{
     background:#121212;
-    color:white;
+    color:#f1f1f1;
 }
 
+/* contenedores */
 body.dark nav,
 body.dark section,
 body.dark .contacto{
     background:#1e1e1e;
-    color:white;
+    color:#f1f1f1;
 }
 
-body.dark h2{
+/* título principal */
+body.dark h1{
+    background:linear-gradient(90deg,#111,#333);
+}
+
+/* textos */
+body.dark p,
+body.dark h2,
+body.dark label{
+    color:#f1f1f1;
+}
+
+/* links del menú */
+body.dark nav a{
     color:#c084fc;
 }
 
+body.dark nav a:hover{
+    color:#ec4899;
+}
+
+/* inputs y textarea */
 body.dark input,
 body.dark textarea{
     background:#2d2d2d;
@@ -238,6 +257,7 @@ body.dark textarea{
     border:2px solid #555;
 }
 
+/* footer */
 body.dark footer{
     background:#111;
 }
