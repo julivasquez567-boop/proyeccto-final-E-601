@@ -541,3 +541,10 @@ body.dark .aviso h3{
 #arriba:hover{
     transform:scale(1.1);
 }
+
+.pdf-viewer{
+    width:100%;
+    height:700px;
+    border:none;
+    border-radius:15px;
+}
