@@ -483,3 +483,38 @@ footer p{
 body.dark footer{
     background:#0f172a;
 }
+
+/* NOTICIAS Y AVISOS */
+
+.avisos{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.aviso{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.aviso:hover{
+    transform:translateY(-5px);
+}
+
+.aviso h3{
+    color:#8b5cf6;
+    margin-bottom:10px;
+}
+
+body.dark .aviso{
+    background:#1e293b;
+}
+
+body.dark .aviso h3{
+    color:#c084fc;
+}
