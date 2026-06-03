@@ -404,3 +404,28 @@ body.dark .card{
 body.dark .info-galeria p{
     color:#cbd5e1;
 }
+
+/* OFERTA EDUCATIVA */
+
+.oferta{
+    list-style:none;
+    padding:0;
+}
+
+.oferta li{
+    background:#f8fafc;
+    margin:12px 0;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.oferta li:hover{
+    transform:translateX(10px);
+}
+
+body.dark .oferta li{
+    background:#334155;
+    color:white;
+}
