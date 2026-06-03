@@ -383,3 +383,24 @@ body.dark .card{
     transform:scale(1.08);
     box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
+
+
+
+.info-galeria{
+    padding:15px;
+}
+
+.info-galeria h3{
+    color:#7c3aed;
+    margin-bottom:8px;
+}
+
+.info-galeria p{
+    color:#555;
+    font-size:14px;
+    line-height:1.5;
+}
+
+body.dark .info-galeria p{
+    color:#cbd5e1;
+}
