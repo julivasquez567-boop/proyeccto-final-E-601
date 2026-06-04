@@ -1,24 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const btn = document.getElementById("modoBtn");
+   const btnArriba = document.getElementById("arriba");
 
-    // Recuperar el modo guardado
-    if (localStorage.getItem("modo") === "oscuro") {
-        document.body.classList.add("dark");
-        btn.textContent = "☀️";
-    }
+if(btnArriba){
 
-    btn.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-
-        if (document.body.classList.contains("dark")) {
-            btn.textContent = "☀️";
-            localStorage.setItem("modo", "oscuro");
+    window.addEventListener("scroll", () => {
+        if(window.scrollY > 300){
+            btnArriba.style.display = "block";
         } else {
-            btn.textContent = "🌙";
-            localStorage.setItem("modo", "claro");
+            btnArriba.style.display = "none";
         }
     });
-});
+
+    btnArriba.addEventListener("click", () => {
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        });
+    });
+
+}
 
 // BOTÓN VOLVER ARRIBA
 

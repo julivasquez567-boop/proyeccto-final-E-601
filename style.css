@@ -548,3 +548,27 @@ body.dark .aviso h3{
     border:none;
     border-radius:15px;
 }
+
+.card-galeria{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    width:320px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card-galeria:hover{
+    transform:translateY(-5px);
+}
+
+.card-galeria p{
+    padding:15px;
+    font-weight:600;
+}
+
+body.dark .card-galeria{
+    background:#1e293b;
+    color:white;
+}
