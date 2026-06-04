@@ -572,3 +572,14 @@ body.dark .card-galeria{
     background:#1e293b;
     color:white;
 }
+
+
+nav a i{
+    margin-right:8px;
+}
+
+nav a{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+}
