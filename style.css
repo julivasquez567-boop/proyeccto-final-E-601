@@ -523,23 +523,26 @@ body.dark .aviso h3{
 
 #arriba{
     position:fixed;
-    bottom:20px;
-    right:20px;
-    width:50px;
-    height:50px;
+    bottom:25px;
+    right:25px;
+    width:55px;
+    height:55px;
     border:none;
     border-radius:50%;
-    background:#8b5cf6;
+    background:linear-gradient(135deg,#ec4899,#8b5cf6);
     color:white;
-    font-size:22px;
+    font-size:24px;
     cursor:pointer;
     display:none;
+    align-items:center;
+    justify-content:center;
     z-index:999;
-    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+    transition:.3s;
 }
 
 #arriba:hover{
-    transform:scale(1.1);
+    transform:translateY(-5px);
 }
 
 .pdf-viewer{
