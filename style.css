@@ -70,8 +70,7 @@ nav a:hover{
 .banner img{
     width:90%;
     max-width:900px;
-    height:350px;
-    object-fit:cover;
+    height:auto;
     border-radius:20px;
     box-shadow:0 6px 15px rgba(0,0,0,.2);
 }
@@ -268,8 +267,7 @@ body.dark footer{
 .hero-img{
     width:100%;
     max-width:800px;
-    height:350px;
-    object-fit:cover;
+    height:auto;
     border-radius:20px;
     margin-bottom:20px;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
@@ -615,4 +613,11 @@ nav a i{
         font-size:14px;
     }
 
+
+}
+
+/* Todas las imágenes serán responsivas */
+img{
+    max-width:100%;
+    height:auto;
 }
