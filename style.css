@@ -14,7 +14,7 @@ body{
 
 /* TITULO */
 h1{
-    background:linear-gradient(90deg,#ec4899,#8b5cf6);
+    background:linear-gradient(90deg,#2563eb,#1e40af);
     color:white;
     text-align:center;
     padding:25px;
@@ -33,15 +33,14 @@ nav{
 
 nav a{
     text-decoration:none;
-    color:#8b5cf6;
+    color:#2563eb;
     margin:0 20px;
     font-weight:600;
     transition:.3s;
 }
 
 nav a:hover{
-    color:#ec4899;
-    transform:scale(1.1);
+    color:#1e40af;
 }
 
 /* HERO */
@@ -83,7 +82,7 @@ section{
 }
 
 section h2{
-    color:#8b5cf6;
+    color:#1e40af;
     margin-bottom:15px;
 }
 
@@ -364,7 +363,7 @@ body.dark textarea{
 }
 
 .card h3{
-    color:#8b5cf6;
+    color:#2563eb;
     font-size:2rem;
     margin-bottom:10px;
 }
@@ -434,12 +433,11 @@ body.dark .oferta li{
     justify-content:center;
     gap:20px;
     padding:20px;
-    background:linear-gradient(90deg,#ec4899,#8b5cf6);
+    background:linear-gradient(90deg,#2563eb,#1e40af);
     color:white;
     text-align:center;
     flex-wrap:wrap;
 }
-
 .header-principal img{
     width:90px;
     height:90px;
@@ -479,7 +477,7 @@ footer p{
 }
 
 body.dark footer{
-    background:#0f172a;
+    background:#1e40af;
 }
 
 /* NOTICIAS Y AVISOS */
@@ -527,7 +525,7 @@ body.dark .aviso h3{
     height:55px;
     border:none;
     border-radius:50%;
-    background:linear-gradient(135deg,#ec4899,#8b5cf6);
+    background:linear-gradient(135deg,#2563eb,#1e40af);
     color:white;
     font-size:24px;
     cursor:pointer;
