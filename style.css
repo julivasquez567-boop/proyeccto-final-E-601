@@ -353,7 +353,7 @@ body.dark textarea{
     background:white;
     padding:25px;
     border-radius:15px;
-    width:220px;
+    width:min(220px, 100%);
     text-align:center;
     box-shadow:0 5px 15px rgba(0,0,0,.1);
     transition:.3s;
@@ -554,7 +554,7 @@ body.dark .aviso h3{
     background:white;
     border-radius:15px;
     overflow:hidden;
-    width:320px;
+    width:min(320px, 100%);
     text-align:center;
     box-shadow:0 5px 15px rgba(0,0,0,.1);
     transition:.3s;
@@ -620,4 +620,61 @@ nav a i{
 img{
     max-width:100%;
     height:auto;
+}
+
+@media (max-width:768px){
+
+    .card,
+    .card-galeria,
+    .aviso{
+        width:100%;
+    }
+
+}
+@media (max-width:768px){
+
+    h1{
+        font-size:1.8rem;
+        padding:18px;
+    }
+
+    .hero{
+        padding:40px 15px;
+    }
+
+    .hero h2{
+        font-size:1.5rem;
+    }
+
+    section{
+        margin:20px 10px;
+        padding:20px;
+    }
+
+    .header-principal{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .header-principal img{
+        width:70px;
+        height:70px;
+    }
+
+    .card,
+    .card-galeria,
+    .aviso{
+        width:100%;
+    }
+
+    #modoBtn{
+        width:50px;
+        height:50px;
+        font-size:20px;
+    }
+
+    #arriba{
+        width:50px;
+        height:50px;
+    }
 }
