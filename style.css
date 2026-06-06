@@ -676,3 +676,14 @@ img{
         height:50px;
     }
 }
+
+.doble-imagen{
+    display:flex;
+    gap:5px;
+}
+
+.doble-imagen img{
+    width:50%;
+    height:220px;
+    object-fit:cover;
+}
